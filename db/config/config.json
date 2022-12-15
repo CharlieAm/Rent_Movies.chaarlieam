@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "movie_rental",
+    "password": "abacate",
+    "database": "movie_rental",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "migrationStorage": "json",
+    "logging": false
+  },
+  "test": {
+    "username": "movie_rental",
+    "password": "abacate",
+    "database": "movie_rental_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "migrationStorage": "json",
+    "logging": false
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
